@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" type="text/css" href="EtchSketchStyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato&display=swap" rel="stylesheet">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <main>
+    <h1>Etch-a-Sketch</h1>
+      <div id="container"></div>
+      <div id="controlPanel">
+        <label>Grid Width: <input type="number" id="gridWidth"></input></label>
+        <label>Grid Height: <input type="number" id="gridHeight"></input></label>
+        <input type="submit" id="submit" value="Create"></input>
+        <label>Choose Your Color: <input type="color" id="color"></input></label>
+        <button type="button" id="shading">Shading: off</button>
+        <button type="button" id="rainbow">Rainbow: off</button>
+        <button type="button" id="reset">Clear</button>
+      </div>
+  </main>
+  <script src="EtchSketchScript.js"></script>
+</body>
+</html>
